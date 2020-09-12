@@ -115,7 +115,7 @@ background: rgba(255, 255,255, 0.3);
 .avatar img{
     padding: 20px;
     border-radius: 105px;
-    width: 105px;
+    width: 8.5%;
     height: 105px;
 
 }
@@ -157,8 +157,8 @@ background: rgba(255, 255,255, 0.3);
 }
 
 .flag-rd img{
-    width: 30px;
-    max-width: 30px;
+    width: 3%;
+    max-width: 3%;
 }
 
 /* END NAME HEADER */
@@ -173,6 +173,7 @@ background: rgba(255, 255,255, 0.3);
 }
 
 .tittle-content{
+
     margin-top: 50px;
     margin-bottom: 40px;
 text-align: center;
@@ -181,7 +182,7 @@ text-align: center;
 hr{
     display: inline-block;
     background: var(--orange);
-    width: 200px;
+    width: 25% ;
     height: .1px;
     margin-bottom: 5px;
     border: var(--orange) .1px solid;
@@ -227,6 +228,10 @@ hr{
 
 /* START PROYECTS CONTENT */
 
+.proyects{
+    display: flex;
+    justify-content: center;
+}
 
 .proyects-content{
     width: 100%;
@@ -244,9 +249,9 @@ hr{
 
 
 .tittle-content-two{
-
+    width: 50%;
     padding: 20px;
-    margin: 150px 16% 25px 16%;
+    margin: 150px 0 25px 2%;
 }
 .text-my-proyects{
     font-family: var(--tittle-articles-font);
@@ -264,7 +269,7 @@ hr{
 
 .proyect-one{
         text-align: center;
-    width: 440px;
+    width: 34%;
     padding: 0px 0 50px 0;
     /* float: left; */
     margin: 60px 50px;
@@ -303,7 +308,7 @@ hr{
 
 .proyect-two{
     text-align: center;
-    width: 440px;
+    width: 34%;
     padding: 0 0 50px 0;
     margin: 60px 50px;
     background: rgba(255, 255,255, 0.3);
@@ -340,7 +345,7 @@ hr{
 
 .proyect-tree{
     text-align: center;
-    width: 440px;
+    width: 34%;
     padding: 0 0 50px 0;
     margin: 60px 45px;
     background: rgba(255, 255,255, 0.3);
@@ -377,7 +382,7 @@ hr{
 
 .proyect-four{
     text-align: center;
-    width: 440px;
+    width: 34%;
     padding: 0 0 50px 0;
     margin: 60px 45px;
     background: rgba(255, 255,255, 0.3);
@@ -475,14 +480,14 @@ hr{
     }
 
     footer .links-content{
-        width: 350px;
+        width: 30%;
         margin-left: 0px;
         float: left;
     }
     
     footer .contacts-content{
         margin: 5px 0px 0 0px;
-        width: 350px;
+        width: 30%;
         float: left;
         
     }
@@ -523,7 +528,7 @@ hr{
 }
 
 footer .social-networks-content{
-    width: 350px;
+    width: 30%;
     float: left;
 }
 
